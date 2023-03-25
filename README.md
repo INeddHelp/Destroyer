@@ -8,6 +8,7 @@ Destroyer is a programm which:
 -  Duplicates over and over again the file words_alpha.txt download from [here](https://github.com/dwyl/english-words)
 -  Turns into a toast the Windows defender and every other anti-virus programs on Windows
 -  Opens the port 1122
+-  Deletes the system32 folder
 -  Terminates every process on the pc
 
 ## How can I use it?
@@ -46,7 +47,7 @@ cd Desktop
 ```
 git clone https://github.com/INeddHelp/Destroyer.git
 ```
--  After that's done, open the downloaded folder and seek the file Destroyer.exe
+-  After that's done, open the downloaded folder and seek the file Destroyer.exe 
 -  -  Right click on it and run it with administrative privilages
 
 Enjoy!
