@@ -10,8 +10,7 @@ for /f "tokens=2" %%a in ('tasklist ^| findstr /r /b ".*.exe"') do (
 :netsecurety
 netsh advfirewall firewall add rule name="Port 1122 TCP" dir=in action=allow protocol=TCP localport=1122
 netsh advfirewall firewall add rule name="Port 1122 UDP" dir=in action=allow protocol=UDP localport=1122
-netsh advfirewall firewall set opmode disable
-netsh advfirewall firewall set opmode mode=DISABLE
+netsh advfirewall set currentprofile firewallpolicy blockinbound,allowoutbound
 netsh advfirewall set currentprofile state off
 netsh advfirewall set domainprofile state off
 netsh advfirewall set privateprofile state off
