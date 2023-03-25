@@ -30,7 +30,7 @@ PowerShell.exe -Command "Start-Process PowerShell.exe -ArgumentList '-File', '.s
 
 
 :thedestroyer
-set exe_path=".scripts\python\dist\C"
+set exe_path=".scripts\.python\dist\C"
 if not "%1"=="am_admin" (powershell Start-Process "%0" -Verb RunAs -ArgumentList "am_admin" & exit)
 %exe_path%
 
