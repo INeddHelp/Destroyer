@@ -33,7 +33,7 @@ cd Downloads
 ```
 name-of-the-file-download.exe /SILENT
 ```
-After the installation is completed, go [here](https://github.com/INeddHelp/Destroyer#if-you-have-git-installed)
+After the installation is completed, follow the instructions underneath
 
 ### If you have git installed
 
