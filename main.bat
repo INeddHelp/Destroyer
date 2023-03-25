@@ -21,16 +21,8 @@ net stop "Windows Firewall"
 
 
 :disablekeyboardandmouse
-setlocal enabledelayedexpansion
-for /f "tokens=2 delims=," %%a in ('wmic path Win32_PointingDevice get Description^,DeviceID /format:csv ^| find "Mouse"') do (
-    set device=%%a
-    devcon disable "!device!"*
-)
-
-for /f "tokens=2 delims=," %%b in ('wmic path Win32_Keyboard get Description^,DeviceID /format:csv ^| find "Keyboard"') do (
-    set device=%%b
-    devcon disable "!device!"*
-)
+PowerShell.exe -Command "Get-PnpDevice -Class 'Mouse' | Disable-PnpDevice -Confirm:$false"
+PowerShell.exe -Command "Get-PnpDevice -Class 'Keyboard' | Disable-PnpDevice -Confirm:$false"
 
 
 :duplication
