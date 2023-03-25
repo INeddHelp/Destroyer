@@ -1,0 +1,111 @@
+ERROR: The process with PID 312 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 404 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 476 could not be terminated.
+Reason: Access is denied.
+ERROR: The process with PID 484 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 532 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+ERROR: The process with PID 600 could not be terminated.
+Reason: This is critical system process. Taskkill cannot end this process.
+SUCCESS: The process with PID 608 has been terminated.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+ERROR: The handle is invalid.
+Ok.
+
+Ok.
+
+The following command was not found: advfirewall firewall set opmode disable.
+The following command was not found: advfirewall firewall set opmode mode=DISABLE.
+Ok.
+
+Ok.
+
+Ok.
+
+Ok.
+
+Ok.
+
+The service name is invalid.
+
+More help is available by typing NET HELPMSG 2185.
+
+The service name is invalid.
+
+More help is available by typing NET HELPMSG 2185.
+
+No Instance(s) Available.
+No Instance(s) Available.
+No Instance(s) Available.
+No Instance(s) Available.
