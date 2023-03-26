@@ -127,4 +127,4 @@ For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 https://www.contributor-covenant.org/translations.
 
-LTS version: v0.0.1 
+LTS version: v0.1

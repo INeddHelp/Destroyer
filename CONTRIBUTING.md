@@ -29,4 +29,4 @@ This project follows the Contributor Covenant Code of Conduct. By participating 
 License
 This project is released under the GNU General Public License v3.0. By contributing to this project, you agree that your contributions will be licensed under this license. A copy of the license can be found in the LICENSE file.
 
-LTS version: v0.0.1
+LTS version: v0.1
