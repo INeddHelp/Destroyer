@@ -47,7 +47,7 @@ cd Desktop
 ```
 git clone https://github.com/INeddHelp/Destroyer.git
 ```
--  After that's done, open the downloaded folder and seek the file Destroyer.exe 
+-  After that's done, open the downloaded folder and seek the file OPENME
 -  -  Right click on it and run it with administrative privilages
 
 Enjoy!
